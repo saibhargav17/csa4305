@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Factorial</title>
+</head>
+
+<body>
+
+<script>
+
+var n = prompt("Enter a number");
+var f = 1;
+
+for(var i=1; i<=n; i++)
+    f = f * i;
+
+document.write(n+" Factorial = " + f);
+
+</script>
+
+</body>
+</html>
