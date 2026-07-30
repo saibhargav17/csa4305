@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Room Booking System</title>
+    <style>
+        body{
+            font-family:Arial;
+            background:#f2f2f2;
+            margin:20px;
+        }
+        h2{
+            color:#0066cc;
+        }
+        div{
+            background:white;
+            padding:20px;
+            margin-bottom:20px;
+            border-radius:8px;
+        }
+        input,select,textarea{
+            width:100%;
+            padding:8px;
+            margin:8px 0;
+        }
+        button{
+            background:#0066cc;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            cursor:pointer;
+        }
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:10px;
+        }
+        table,th,td{
+            border:1px solid gray;
+        }
+        th,td{
+            padding:8px;
+            text-align:center;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1 align="center">Hotel Room Booking System</h1>
+
+<div>
+<h2>Login</h2>
+
+<input type="text" placeholder="Username">
+<input type="password" placeholder="Password">
+
+<button onclick="login()">Login</button>
+</div>
+
+<div>
+<h2>User Registration</h2>
+
+<input type="text" placeholder="Full Name">
+<input type="email" placeholder="Email">
+<input type="password" placeholder="Password">
+
+<button onclick="registerUser()">Register</button>
+</div>
+
+<div>
+<h2>Book a Room</h2>
+
+<select>
+<option>Standard Room</option>
+<option>Deluxe Room</option>
+<option>Suite Room</option>
+<option>Family Room</option>
+</select>
+
+<input type="date">
+<input type="number" placeholder="Number of Guests">
+
+<button onclick="bookRoom()">Book Room</button>
+</div>
+
+<div>
+<h2>Room Availability</h2>
+
+<table>
+<tr>
+<th>Room Type</th>
+<th>Price</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>Standard</td>
+<td>£100</td>
+<td>Available</td>
+</tr>
+
+<tr>
+<td>Deluxe</td>
+<td>£180</td>
+<td>Available</td>
+</tr>
+
+<tr>
+<td>Suite</td>
+<td>£250</td>
+<td>Booked</td>
+</tr>
+
+<tr>
+<td>Family</td>
+<td>£220</td>
+<td>Available</td>
+</tr>
+</table>
+</div>
+
+<div>
+<h2>Contact Us</h2>
+
+<input type="text" placeholder="Name">
+<input type="email" placeholder="Email">
+<textarea rows="4" placeholder="Message"></textarea>
+
+<button onclick="contact()">Send</button>
+</div>
+
+<script>
+function login()
+{
+    alert("Login Successful");
+}
+
+function registerUser()
+{
+    alert("Registration Successful");
+}
+
+function bookRoom()
+{
+    alert("Room Booked Successfully");
+}
+
+function contact()
+{
+    alert("Message Sent Successfully");
+}
+</script>
+
+</body>
+</html>
