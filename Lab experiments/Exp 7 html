@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Divisible by 99</title>
+</head>
+
+<body>
+
+<script>
+
+for(var i=1001; ; i++)
+{
+    if(i % 99 == 0)
+    {
+        document.write("Number = " + i);
+        break;
+    }
+}
+
+</script>
+
+</body>
+</html>
