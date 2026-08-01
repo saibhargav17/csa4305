@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Background Color</title>
+</head>
+
+<body>
+
+<script>
+
+var h = new Date().getHours();
+
+if(h < 12)
+    document.bgColor = "lightblue";
+else if(h < 18)
+    document.bgColor = "lightgreen";
+else
+    document.bgColor = "gray";
+
+</script>
+
+</body>
+</html>
