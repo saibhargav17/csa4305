@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html style="background-color:AliceBlue">
+
+<head>
+<title>Student Details</title>
+
+</head>
+
+<body>
+
+<form>
+
+<h>Enter Student Details:</h>
+
+<p>Name:</p>
+<input Type="text" id="name" name="name"><br><br>
+
+<label>Register Number:</label><br>
+<input Type="text" id="reg" name="reg"><br><br>
+
+<label>Gender:</label><br>
+<input Type="radio" id="g" name="g"> Male<br>
+<input Type="radio" id="g" name="g"> Female<br>
+<input Type="radio" id="g" name="g"> Others<br>
+
+<label><br>DOB:</label><br>
+<input Type="date" id="dob" name="dob"><br>
+
+<label><br>Email:</label><br>
+<input Type="email" id="email" name="email"><br>
+
+<label><br>Phone no. :</label><br>
+<input Type="tel" id="phno" name="phno"><br>
+
+<label><br>Department:</label><br>
+<Select>
+    <Option>CSE</Option>
+    <Option>IT</Option>
+    <Option>ECE</Option>
+    <Option>EEE</Option>
+</Select><br>
+
+<label><br>Address:</label><br>
+<textarea name="message" rows="5" cols="50"></textarea>
+
+<label><br>Interested Domains:</label><br>
+<input type="checkbox"> HTML<br>
+<input type="checkbox"> AI<br>
+<input type="checkbox"> Cyber Security<br>
+<input type="checkbox"> Not interested<br><br>
+
+<input type="Submit" value="Submit">
+<input type="Reset" value="Reset">
+
+</form>
+
+</body>
+</html>
